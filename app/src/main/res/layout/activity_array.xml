@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ArrayActivity">
+
+    <EditText
+        android:id="@+id/etinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="type input"
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:id="@+id/buttoninput"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+    <TextView
+        android:id="@+id/etarray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:hint="array"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/etdiff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:hint="diff"
+        android:visibility="gone"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/etoutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="average"
+        android:gravity="center"
+        android:padding="20dp"
+        android:textSize="20sp"/>
+
+</LinearLayout>
